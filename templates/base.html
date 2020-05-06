@@ -1,0 +1,26 @@
+<!-- templates/base.html -->
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <meta http-equiv="X-UA-Compatible" content="ie=edge">
+  <title>MoneyManager</title>
+  <!-- Font -->
+  <link href="https://fonts.googleapis.com/css2?family=Asap&display=swap" rel="stylesheet">
+</head>
+<style>
+  #grad1 {
+    height: 200px;
+    background-color: MediumSeaGreen; /* For browsers that do not support gradients */
+    background-image: linear-gradient(DarkSeaGreen, MediumSeaGreen); /* Standard syntax (must be last) */
+body {
+  font-family: 'Asap', sans-serif;
+}
+</style>
+<body>
+{% block content %}
+
+{% endblock content %}
+</body>
+</html>
